@@ -6,10 +6,15 @@
 
 /* I would suggest using float to get this container in its desired location. */
 
+.main-section {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
 .content-left {
     width: 34%;
-    /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    height: 100%;
     background: #565555;
 }
 
@@ -18,8 +23,7 @@
 
 .content-mid {
     width: 66%;
-    /* This height is a placeholder. You will need to make some adjustments to get this container to look like the design. */
-    height: 100px;
+    height: 100%;
     background: #B0B0B0;
 }
 
